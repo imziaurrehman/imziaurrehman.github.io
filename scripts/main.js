@@ -65,83 +65,91 @@ const app = Vue.createApp({
       // list of skills items to loop through it
       skillsItems: [
         {
-          imgUrl: 'assets/images/skills/html5.png',
-          title: 'HTML5'
+          imgUrl: 'assets/images/myportfolioicons/icons8-dart-96.png',
+          title: 'Dart'
         }, {
-          imgUrl: 'assets/images/skills/css3.png',
-          title: 'CSS3'
+          imgUrl: 'assets/images/myportfolioicons/flutter-logo.png',
+          title: 'Flutter'
         }, {
-          imgUrl: 'assets/images/skills/javascript.png',
+          imgUrl: 'assets/images/myportfolioicons/icons8-android-96.png',
+          title: 'Android'
+        }, {
+          imgUrl: 'assets/images/myportfolioicons/icons8-java-96.png',
+          title: 'Java'
+        }, {
+          imgUrl: 'assets/images/myportfolioicons/icons8-xml-96.png',
+          title: 'XML'
+        }, {
+          imgUrl: 'assets/html5.png',
+          title: 'HTML'
+        }, {
+          imgUrl: 'assets/javascript.png',
           title: 'JavaScript'
         }, {
-          imgUrl: 'assets/images/skills/typescript.png',
-          title: 'TypeScript'
-        }, {
-          imgUrl: 'assets/images/skills/jquery.png',
-          title: 'jQuery'
-        }, {
-          imgUrl: 'assets/images/skills/bootstrap.png',
-          title: 'Bootstrap'
-        }, {
-          imgUrl: 'assets/images/skills/angular.png',
-          title: 'Angular'
-        }, {
-          imgUrl: 'assets/images/skills/react.png',
-          title: 'React'
-        }, {
-          imgUrl: 'assets/images/skills/vue.png',
-          title: 'Vue'
-        }, {
-          imgUrl: 'assets/images/skills/firebase.png',
+          imgUrl: 'assets/images/myportfolioicons/firebase-logo.png',
           title: 'Firebase'
         }, {
-          imgUrl: 'assets/images/skills/pugjs.png',
-          title: 'PugJS'
+          imgUrl: 'assets/images/myportfolioicons/mvvm-logo.png',
+          title: 'MVVM'
         }, {
-          imgUrl: 'assets/images/skills/sass.png',
-          title: 'SASS'
-        }
+          imgUrl: 'assets/images/myportfolioicons/oop-logo.png',
+          title: 'OOP'
+        }, {
+          imgUrl: 'assets/images/myportfolioicons/sqLite-logo.png',
+          title: 'SQlite'
+        }, {
+          imgUrl: 'assets/images/skills/firebase.png',
+          title: 'REST APIs'
+        },
+        // {
+        //   imgUrl: 'assets/images/skills/pugjs.png',
+        //   title: 'PugJS'
+        // }, {
+        //   imgUrl: 'assets/images/skills/sass.png',
+        //   title: 'SASS'
+        // }
       ],
 
       // list of tools items to loop through it
       toolsItems: [
         {
-          imgUrl: 'assets/images/skills/ajax.png',
-          title: 'Ajax'
+          imgUrl: 'assets/images/myportfolioicons/icons8-android-studio-96.png',
+          title: 'Android Studio'
         }, {
-          imgUrl: 'assets/images/skills/gulp.png',
-          title: 'Gulp'
-        }, {
-          imgUrl: 'assets/images/skills/webpack.png',
-          title: 'Webpack'
-        }, {
-          imgUrl: 'assets/images/skills/git.png',
-          title: 'Git (Github)'
-        }, {
-          imgUrl: 'assets/images/skills/npm.png',
-          title: 'Npm'
-        }, {
-          imgUrl: 'assets/images/skills/command.png',
-          title: 'Command Line'
+          imgUrl: 'assets/images/myportfolioicons/icons8-xcode-96.png',
+          title: 'XCode'
         }, {
           imgUrl: 'assets/images/skills/vs-code.png',
           title: 'VS Code'
         }, {
-          imgUrl: 'assets/images/skills/trello.png',
-          title: 'Trello'
+          imgUrl: 'assets/images/myportfolioicons/icons8-command-line-50.png',
+          title: 'CommandLine'
         }, {
-          imgUrl: 'assets/images/skills/clickup.png',
-          title: 'ClickUp'
+          imgUrl: 'assets/images/myportfolioicons/icons8-git-48.png',
+          title: 'Git'
         }, {
-          imgUrl: 'assets/images/skills/slack.png',
+          imgUrl: 'assets/images/myportfolioicons/icons8-github-96.png',
+          title: 'GitHub'
+        }, {
+          imgUrl: 'assets/images/myportfolioicons/icons8-slack-48.png',
           title: 'Slack'
         }, {
-          imgUrl: 'assets/images/skills/photoshop.png',
-          title: 'Photoshop'
-        }, {
-          imgUrl: 'assets/images/skills/adobe-xd.png',
-          title: 'Adobe XD'
-        }
+          imgUrl: 'assets/images/myportfolioicons/icons8-figma-48.png',
+          title: 'Figma'
+        },
+        //  {
+        //   imgUrl: 'assets/images/skills/clickup.png',
+        //   title: 'ClickUp'
+        // }, {
+        //   imgUrl: 'assets/images/skills/slack.png',
+        //   title: 'Slack'
+        // }, {
+        //   imgUrl: 'assets/images/skills/photoshop.png',
+        //   title: 'Photoshop'
+        // }, {
+        //   imgUrl: 'assets/images/skills/adobe-xd.png',
+        //   title: 'Adobe XD'
+        // }
       ],
 
       // list of experience items to loop through it
